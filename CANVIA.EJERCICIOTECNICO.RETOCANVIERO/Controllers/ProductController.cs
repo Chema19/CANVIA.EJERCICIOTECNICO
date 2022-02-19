@@ -9,7 +9,7 @@ using System.Web.Http;
 
 namespace CANVIA.EJERCICIOTECNICO.RETOCANVIERO.Controllers
 {
-    [AllowAnonymous]
+    [Authorize]
     [RoutePrefix("productapi")]
     public class ProductController : ApiController
     {
